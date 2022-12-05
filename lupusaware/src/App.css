@@ -2,44 +2,102 @@
 .body {
     min-height: 100vh;
     position: relative;
+    background-color: #e019c9;
 }
 
 /* ~~~~~~~~ Navbar Section ~~~~~~~ */
 
 .nav-title {
+    display: flex;
+    align-content: center;
+    justify-content: start;
     color: purple;
     width: 50%;
-    font-size: 35px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    order: -1;
 }
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: end;
+.navs {
     /* border: solid green; */
-    width: 50%;
-    height: 100%;
+    /* width: 50%;
+    height: 100%; */
     font-size: 25px;
+    /* border: solid green; */
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.nav-bar{
+    /* border: solid; */
+    width: 50%;
+    order: 2;
+    display: flex;
+    justify-content: end;
 }
 .navy {
     /* border: solid red; */
     width: 100%;
     height: auto;
     background-color:honeydew;
+    flex-direction: row;
 }
 .nav-container {
     width: 100%;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    columns: 2;
 }
 .nav-link{
     margin-right: 20px;
 }
-
+.toggle{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~ Home Section ~~~~~~~ */
+.home-heroImage{
+    width: 100%;
+    height: 500px;
+    background-color: azure;
+    display: flex;
+    flex-direction: row; 
+}
+.hero-div1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-div1-box{
+    width: 70%;
+    height: 70%;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-div2{
+    width: 50%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./img/saying.jpg')
+}
+.hero-image{
+    height: auto;
+    width: auto;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ Footer Section ~~~~~~~ */
 .footer{
     width: 100%;
     height: 80px;
-    background-color: aquamarine;
+    background-color:honeydew;
     position: absolute;
     bottom: 0;
 }

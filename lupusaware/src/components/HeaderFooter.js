@@ -8,14 +8,17 @@ export default function HeaderFooter() {
     return(
         <div className='body'>
             <div>
-            <Navbar variant="light" className='navy'>
+            <Navbar className='navy' expand='lg'>
         <       Container className='nav-container'>
                     <Navbar.Brand className='nav-title' >Lupus Aware</Navbar.Brand>
-                    <Nav className="me-auto nav-bar">
-                        <NavLink className='nav-link' to='/' >Home</NavLink>
-                        <NavLink className='nav-link' to='/Blog' >Blog</NavLink>
-                        <NavLink className='nav-link' to='Contact' >Resources</NavLink>
-                    </Nav>
+                    <Navbar.Toggle aria-controls='basic-navbar-nav' className='toggle'/>
+                    <Navbar.Collapse id='basic-navbar-nav' className='nav-bar'>
+                        <Nav className="me-auto navs">
+                            <NavLink className='nav-link' to='/' >Home</NavLink>
+                            <NavLink className='nav-link' to='/Blog' >Blog</NavLink>
+                            <NavLink className='nav-link' to='Contact' >Resources</NavLink>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>                
             </div>
