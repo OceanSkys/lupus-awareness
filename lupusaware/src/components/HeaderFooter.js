@@ -6,11 +6,12 @@ import { NavLink, Outlet } from 'react-router-dom';
 export default function HeaderFooter() {
 
     return(
+
         <div className='body'>
             <div>
             <Navbar className='navy' expand='lg'>
-        <       Container className='nav-container'>
-                    <Navbar.Brand className='nav-title' >Lupus Aware</Navbar.Brand>
+                <Container className='nav-container'>
+                    <NavLink className='nav-title' to='/'>Lupus Aware</NavLink>
                     <Navbar.Toggle aria-controls='basic-navbar-nav' className='toggle'/>
                     <Navbar.Collapse id='basic-navbar-nav' className='nav-bar'>
                         <Nav className="me-auto navs">
@@ -26,7 +27,6 @@ export default function HeaderFooter() {
                 <Outlet/>
             </div>
             <footer className='footer'>
-
             </footer>
         </div>
     );
