@@ -16,7 +16,8 @@ export default function HeaderFooter() {
                             <Nav className="me-auto navs">
                                 <Nav.Link className='nav-link' eventKey="1" as={Link} to='/' >Home</Nav.Link>
                                 <Nav.Link className='nav-link' eventKey="2" as={Link} to='/Blog' >Blog</Nav.Link>
-                                <Nav.Link className='nav-link' eventKey="3"as={Link} to='/Contact' >Resources</Nav.Link>
+                                <Nav.Link className='nav-link' eventKey="3"as={Link} to='/Resources' >Resources</Nav.Link>
+                                <Nav.Link className='nav-link' eventKey="4"as={Link} to='/Contact' >Contact</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
