@@ -2,7 +2,7 @@
 .body {
     min-height: 100vh;
     position: relative;
-    background-color: #e019c9;
+    background-color:azure;
 }
 
 /* ~~~~~~~~ Navbar Section ~~~~~~~ */
@@ -31,7 +31,6 @@
     justify-content: end;
     width: 100%;
     background-color: honeydew;
-    border: solid;
 }
 .nav-bar{
     /* border: solid; */
@@ -69,15 +68,19 @@
         font-size: 35px;
     }
   }
+  @media (max-width: 991px) {
+    .navs{
+        border: solid;
+    }
+  }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ Home Section ~~~~~~~ */
 .home-heroImage{
     width: 100%;
-    height: 60vh;
-    background-color: azure;
+    height: 70vh;
+    background-color: darkorchid;
     display: flex;
     flex-direction: row; 
-    margin-bottom: 20px;
 }
 .hero-div1{
     width: 50%;
@@ -86,7 +89,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: blue solid;
 }
 .hero-div1-box{
     width: 70%;
@@ -102,7 +104,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid red;
 }
 .hero-div2-box{
     width: 100%;
@@ -110,7 +111,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    border: solid red;
     
 }
 .hero-image{
@@ -131,7 +131,6 @@
     .hero-div1{
         width: 90%;
         height: 50%;
-        border: blue solid;
     }
     .hero-div1-box{
         width: 70%;
@@ -144,7 +143,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid red;
     }
     .hero-div2-box{
         width: 100%;
@@ -152,10 +150,24 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        border: solid red;
         
     }
   }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~ Home-Body Section ~~~~~~~ */
+.space {
+    width: 100%;
+    height: 450px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-box {
+    width: 50%;
+    height: 90%;
+    background: azure;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ Footer Section ~~~~~~~ */
 .footer{
@@ -175,3 +187,4 @@
         margin-top: 20px;
     }
   }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

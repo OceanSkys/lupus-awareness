@@ -11,7 +11,7 @@ export default function Blog(){
                     </div>
                 </div>
                 <div className="hero-div1">
-                    <h1 style={{display: 'flex', justifyContent: 'center', alignItems: 'top'}}>Contact</h1>
+                    <h1 style={{display: 'flex', justifyContent: 'center', alignItems: 'top'}}>Blog</h1>
                     <div className="hero-div1-box">
                         <p style={{padding: '35px'}}>Welcome to Lupus Awareness! My name is Jeremy, and I made this site to share resources and my experience with having Lupus. </p>
                     </div>
