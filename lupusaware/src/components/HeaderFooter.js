@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, Outlet } from 'react-router-dom';
 
 export default function HeaderFooter() {
-
+ 
     return(
         <div className='body'>
             <div>
