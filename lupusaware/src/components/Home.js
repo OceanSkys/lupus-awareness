@@ -5,8 +5,9 @@ export default function Home(){
 
     return(
     <div>
-        <div style={{display:'flex', justifyContent:'center'}}>
+        <div className='box1' style={{display:'flex', justifyContent:'center'}}>
             <div className='home-heroImage'>
+            
                 <div className="hero-div1">
                     <h1 style={{display: 'flex', justifyContent: 'center', alignItems: 'top'}}>Lupus Awareness</h1>
                     <div className="hero-div1-box">
@@ -22,10 +23,10 @@ export default function Home(){
         </div>
         <div className='space'>
             <div className='space-box'>
-
+                <h2>Hello</h2>
             </div>
         </div>
-        <div style={{display:'flex', justifyContent:'center', paddingBottom: '80px'}}>
+        <div className='box2' style={{display:'flex', justifyContent:'center', paddingBottom: '80px'}}>
             <div className='home-heroImage'>
                 <div className='hero-div2'>
                     <div className="hero-div2-box">

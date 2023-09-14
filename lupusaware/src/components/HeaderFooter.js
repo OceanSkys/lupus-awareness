@@ -11,6 +11,8 @@ export default function HeaderFooter() {
                 <Navbar collapseOnSelect className='navy' expand='lg'>
                     <Container className='nav-container'>
                         <Nav.Link className='nav-title' to='/'>Lupus Aware</Nav.Link>
+                        <div className='nav-div'>
+                        </div>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav' className='toggle'/>
                         <Navbar.Collapse id='responsive-navbar-nav' className='nav-bar'>
                             <Nav className="me-auto navs">

@@ -12,7 +12,7 @@
     align-content: center;
     justify-content: start;
     color: white;
-    width: 50%;
+    width: 25%;
     font-size: 45px;
     font-style: italic;
     font-weight: 600;
@@ -21,7 +21,6 @@
     text-decoration: none;
 }
 /* .nav-mid {
-
 } */
 .navs {
     /* border: solid green; */
@@ -39,12 +38,16 @@
 }
 .nav-bar{
     /* border: solid; */
-    width: 50%;
+    width: 30%;
     height: auto;
     order: 2;
     display: flex;
     align-items: center;
     justify-content: end;
+}
+.nav-div{
+ width: 55%;
+ height: 100%;
 }
 .navy {
     /* border: solid red; */
@@ -75,11 +78,24 @@
         font-size: 35px;
     }
   }
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
     .navs{
         border: solid;
     }
-  }
+}
+@media (max-width: 1246px) {
+    .nav-title{
+        font-size: 35px;
+    }
+}
+@media (max-width: 432px) {
+    .nav-title{
+        font-size: 35px;
+    }
+    .nav-div{
+        width: 35%;
+    }
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ Home Section ~~~~~~~ */
 .home-heroImage{
@@ -138,6 +154,7 @@
     .hero-div1{
         width: 90%;
         height: 50%;
+        margin-bottom: 20px;
     }
     .hero-div1-box{
         width: 70%;
@@ -150,6 +167,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .hero-div2-box{
         width: 100%;
@@ -174,8 +194,41 @@
     width: 50%;
     height: 90%;
     background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~ Blog Section ~~~~~~~ */
+#blogbtn {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    width: 100%;
+    /* border: solid; */
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+#blogbtn:hover {
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#buttons{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#buttons:hover {
+    color: purple;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ Footer Section ~~~~~~~ */
 .footer{
     width: 100%;
